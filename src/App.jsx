@@ -6,12 +6,14 @@ import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="login" element={<LoginPage />} />
-      <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/register" element={<RegisterPage />} />
-    </Routes>
+    <main>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="login" element={<LoginPage />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/register" element={<RegisterPage />} />
+      </Routes>
+    </main>
   );
 }
 
