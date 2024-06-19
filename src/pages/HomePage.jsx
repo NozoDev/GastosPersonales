@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
-    <div className="bg-slate-700 min-h-screen">
+    <div className="bg-slate-700 min-h-screen flex justify-center items-center flex-col">
       <div className="w-full p-10">
         <h1 className="text-4xl mb-4 text-left">
           Bienvenido a la Aplicación de Gastos
