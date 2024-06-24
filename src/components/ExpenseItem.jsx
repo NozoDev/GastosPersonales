@@ -1,13 +1,15 @@
-import React from 'react'
+import React from "react";
 
-const ExpenseItem = ({name, amount, date}) => {
+const ExpenseItem = ({ name, amount, date }) => {
   return (
-    <div>
-      <h3>{name}</h3>
-      <p>{amount}</p>
-      <p>{date}</p>
+    <div className="p-3">
+      <div className="border">
+        <h3>{name}</h3>
+        <p>{amount}</p>
+        <p>{date}</p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default ExpenseItem
+export default ExpenseItem;

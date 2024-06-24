@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import appFirebase from "../firebase/firebase";
+import { appFirebase } from "../firebase/firebase";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 const auth = getAuth(appFirebase);
 
