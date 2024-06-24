@@ -15,7 +15,7 @@ const LoginPage = () => {
     if (login) {
       try {
         await signInWithEmailAndPassword(auth, correo, contraseña);
-        console.log("Succefull login");
+
         navigate("/dashboard");
       } catch (error) {
         console.error("Error loguout", error);

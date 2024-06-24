@@ -4,7 +4,7 @@ import ExpenseItem from "./ExpenseItem";
 const ExpenseList = ({ expenses }) => {
   const totalGastos = expenses.reduce((acc, curr) => acc + curr.amount, 0);
   return (
-    <div className="bg-red-200">
+    <div className="bg-blue-400">
       {expenses.map((expense) => (
         <ExpenseItem
           key={expense.id}

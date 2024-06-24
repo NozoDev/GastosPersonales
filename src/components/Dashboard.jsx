@@ -11,10 +11,12 @@ const Dashboard = () => {
   };
   return (
     <div>
-      <nav className="bg-red-400">
+      <nav className="bg-blue-400 p-4 ">
         <Logout />
       </nav>
-      <h1>Bienvenido</h1>
+      <h1 className="text-center py-4 text-2xl">
+        Bienvenido a tu espacio de cuentas 💱
+      </h1>
 
       <div className="grid grid-cols-2 p-4 h-screen w-full">
         <div className="border">

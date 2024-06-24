@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import img from "../images/img1.jpg";
+
 const HomePage = () => {
   return (
-    <div className="bg-slate-700 min-h-screen flex justify-center items-center flex-col">
+    <div className="bg-[url('images/img1.jpg')] bg-no-repeat bg-cover text-white font-bold min-h-screen flex justify-center items-center flex-col">
       <div className="w-full p-10">
         <h1 className="text-4xl mb-4 text-left">
           Bienvenido a la Aplicación de Gastos
